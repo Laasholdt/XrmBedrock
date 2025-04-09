@@ -2,6 +2,7 @@ using DataverseService.Foundation.Dao;
 using Microsoft.Xrm.Sdk;
 using Newtonsoft.Json;
 using SharedDomain.EconomyArea;
+using SharedDomain.ExampleArea;
 
 namespace DataverseService;
 
@@ -21,4 +22,17 @@ public class DataverseCustomApiService : IDataverseCustomApiService
             new KeyValuePair<string, object>("Payload", JsonConvert.SerializeObject(request)),
         },
     });
+
+    public async Task<string> CallExampleAPI(ExampleRequest request)
+    {
+        var response = await dao.ExecuteAsync(new OrganizationRequest("dg_ExampleAPI")
+        {
+            Parameters = new ParameterCollection()
+            {
+                new KeyValuePair<string, object>("Payload", JsonConvert.SerializeObject(request)),
+            },
+        });
+
+        return response["Response"]?.ToString() ?? "Error";
+    }
 }

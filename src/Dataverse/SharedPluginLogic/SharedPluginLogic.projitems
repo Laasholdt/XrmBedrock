@@ -16,6 +16,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Logic\Azure\IAzureService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\Azure\IsExternalInit.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\Azure\StorageQueueError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\CustomerArea\AccountService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\CustomerArea\AddServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\CustomerArea\IAccountService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\EconomyArea\AddServices.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\EconomyArea\IInvoiceCollectionService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\EconomyArea\InvoiceCollectionService.cs" />
@@ -28,6 +31,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Logic\EconomyArea\TransactionCalculation\TransactionCalculationFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\EconomyArea\TransactionCalculation\YearlyTransactionCalculationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\EconomyArea\TransactionService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ExampleArea\AddServices.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ExampleArea\ExampleService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logic\ExampleArea\IExampleService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\ExecutionContextExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\ExtendedTracingService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\ImageType.cs" />
@@ -38,6 +44,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Logic\_Dao\AdminDataverseAccessObjectService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Logic\_Dao\UserDataverseAccessObjectService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plugins\APIs\CreateTransactions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\APIs\ExampleAPI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plugins\CustomerArea\AccountSetDescription.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plugins\DataverseLogger.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plugins\DummyManagedIdentityService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plugins\EconomyArea\InvoiceCollectionStatusChange.cs" />

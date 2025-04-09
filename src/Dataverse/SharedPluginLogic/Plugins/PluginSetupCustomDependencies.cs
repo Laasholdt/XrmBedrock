@@ -1,5 +1,6 @@
 using DataverseLogic;
 using DataverseLogic.Azure;
+using DataverseLogic.CustomerArea;
 using DataverseLogic.EconomyArea;
 using DataverseLogic.Utility;
 using Microsoft.Extensions.DependencyInjection;
@@ -28,6 +29,7 @@ internal static class PluginSetupCustomDependencies
         services.AddScoped<IAzureService, AzureService>();
 
         // Dataverse Logic (lexicografical order please)
+        services.AddCustomerArea();
         services.AddEconomyArea();
     }
 }

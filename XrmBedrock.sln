@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A76E07CF-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{CBAE8321-E969-4809-9783-8EA2BEE8CBD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleAreaFunctionApp", "src\Azure\ExampleAreaFunctionApp\ExampleAreaFunctionApp.csproj", "{ADEEE6B5-AF45-422F-9795-F8A566CA6BF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{C7601692-2A6C-4D53-ABDE-A4D897CDCFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7601692-2A6C-4D53-ABDE-A4D897CDCFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7601692-2A6C-4D53-ABDE-A4D897CDCFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEEE6B5-AF45-422F-9795-F8A566CA6BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEEE6B5-AF45-422F-9795-F8A566CA6BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEEE6B5-AF45-422F-9795-F8A566CA6BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEEE6B5-AF45-422F-9795-F8A566CA6BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{85C7E181-5D26-4579-A03B-48AA2B455D94} = {4FD2D15A-8A2F-4F5D-BFA5-75662B3BA5D4}
 		{2C2DA732-CDC7-4BFB-A544-FC26B8A1C163} = {4FD2D15A-8A2F-4F5D-BFA5-75662B3BA5D4}
 		{CBAE8321-E969-4809-9783-8EA2BEE8CBD7} = {4FD2D15A-8A2F-4F5D-BFA5-75662B3BA5D4}
+		{ADEEE6B5-AF45-422F-9795-F8A566CA6BF3} = {85C7E181-5D26-4579-A03B-48AA2B455D94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {211F19E6-4B7A-419E-A176-9BB15275F84F}
